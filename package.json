@@ -1,0 +1,32 @@
+{
+  "name": "@ktmcp-cli/mastercard",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for Mastercard API - ATM & merchant location database",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "mastercard": "./bin/mastercard.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node bin/mastercard.js"
+  },
+  "keywords": [
+    "mastercard",
+    "cli",
+    "api"
+  ],
+  "author": "KTMCP",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.1",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "conf": "^12.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
